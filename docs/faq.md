@@ -1,10 +1,15 @@
 # FAQ
 
 **Is Qryptix only for AI workloads?**  
-No. It supports any sensitive workload requiring security.
+No, any sensitive workload can be deployed.  
 
 **Can anyone run a node?**  
-Yes, with sufficient hardware and staked $QRX.
+Yes, with the required hardware and staked $QRX.  
 
-**How is latency so low?**  
-Workloads route dynamically to the nearest available node.
+**How is latency kept low?**  
+Global routing ensures workloads are executed at the nearest available node (<500ms).  
+
+**Why use post-quantum cryptography now?**  
+To prevent the harvest-now, decrypt-later threat.  
+
+---
