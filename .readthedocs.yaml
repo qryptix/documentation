@@ -5,9 +5,6 @@ build:
   tools:
     python: "3.11"
 
-sphinx:
-  configuration: false  # Disable Sphinx, we are using MkDocs
-
 mkdocs:
   configuration: mkdocs.yml
 
