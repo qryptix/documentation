@@ -1,9 +1,9 @@
 # Qryptix Documentation
 
-Welcome to the official Qryptix docs.
+Welcome to the official documentation for **Qryptix**.  
+Qryptix is the **quantum-encrypted AI compute platform** designed for the post-quantum era.  
 
-Qryptix is the quantum-encrypted AI compute platform built for the **post-quantum era**.  
-Here you will find everything you need to understand, build, and scale with Qryptix.
+This site will guide you through the vision, technology, and usage of Qryptix — from the basics of quantum-safe infrastructure to in-depth technical resources.
 
 ---
 
@@ -13,3 +13,5 @@ Here you will find everything you need to understand, build, and scale with Qryp
 - [Developer Resources](developers.md)
 - [Tokenomics](tokenomics.md)
 - [FAQ](faq.md)
+
+---
