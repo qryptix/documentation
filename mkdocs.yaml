@@ -1,17 +1,41 @@
 site_name: Qryptix Documentation
+site_description: Quantum-encrypted AI compute for the post-quantum era
 site_url: https://qryptix.readthedocs.io
+repo_url: https://github.com/qryptix/documentation
+repo_name: qryptix/documentation
+edit_uri: ""
+
 theme:
   name: material
+  language: en
   features:
     - navigation.instant
-    - navigation.top
     - navigation.tracking
+    - navigation.top
+    - navigation.footer
     - search.suggest
     - search.highlight
     - content.code.copy
-    - content.code.annotate
-    - toc.integrate
-    - navigation.footer
+    - content.tooltips
+    - toc.follow
+    - content.tabs.link
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  # Optional: add branding later
+  # logo: assets/qryptix-logo.svg
+  # favicon: assets/favicon.png
+
 nav:
   - Home: index.md
   - Introduction: introduction.md
@@ -25,3 +49,11 @@ nav:
   - Roadmap: roadmap.md
   - FAQ: faq.md
   - Conclusion: conclusion.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
