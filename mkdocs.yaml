@@ -1,0 +1,27 @@
+site_name: Qryptix Documentation
+site_url: https://qryptix.readthedocs.io
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.top
+    - navigation.tracking
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.code.annotate
+    - toc.integrate
+    - navigation.footer
+nav:
+  - Home: index.md
+  - Introduction: introduction.md
+  - Features: features.md
+  - How It Works: how-it-works.md
+  - Use Cases: use-cases.md
+  - Technology Stack: technology.md
+  - Tokenomics: tokenomics.md
+  - Security & Compliance: security.md
+  - Developer Resources: developers.md
+  - Roadmap: roadmap.md
+  - FAQ: faq.md
+  - Conclusion: conclusion.md
